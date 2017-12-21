@@ -30,6 +30,7 @@ public class ReflectionClient extends JFrame {
 		reflectionClient.addApplet();
 		
 		//6. Access the Hookcache (Just one example)
+		@SuppressWarnings("unused")
 		int[] i = Hooks.selector.client.getSkillExperiences();
 	}
 
